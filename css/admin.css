@@ -1,0 +1,49 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+.toplevel_page_UPZFileManager #wpbody-content .metabox-holder { padding:10px; }
+ul.tabNavigation { margin:0 0 10px 0; }
+ul.tabNavigation li { display:inline; margin:0 15px 0 0; }
+
+div.metabox-double-container { width:100%; }
+	div.metabox-double-container .metabox-holder { width:47%; float:left; }
+	div.metabox-double-container .metabox-holder.firstelem { margin-right:3%; }
+
+.folder_group { float:left; }
+#folder_updategroup { float:left; margin:0 0 0 5px; }
+
+#upzfiles_fullpanel { width:94%; padding:3%; float:left; }
+	#upzfiles_foldercontainer { float:left; width:48%; padding:0 2% 0 0; border-right:1px solid #8f8f8f; }
+	#upzfiles_filescontainer { float:left; width:47%; padding-left:2%; }
+		#upzfiles_foldercontainer ul li { clear:both; float:left; margin:0 !important; }
+		#upzfiles_filescontainer ul { list-style:none; padding:0 0 10px; margin:0 !important; }
+		#upzfiles_userfilescontainer { float:left; width:96%; margin:0 2% 40px; }
+		#upzfiles_userfilescontainer .upzfile_file_icon, #upzfiles_filescontainer .upzfile_file_icon { float:left;margin:0 0 5px; }
+		#upzfiles_userfilescontainer .upzfile_file_name, #upzfiles_filescontainer .upzfile_file_name { float:left; margin:0 0 0 10px; }
+		#upzfiles_userfilescontainer .upzfiles_admin_singlefiles, #upzfiles_filescontainer .upzfiles_admin_singlefiles { float:right; clear:both; margin:0 0 2px; }
+		#upzfiles_userfilescontainer .upzfiles_filesize, #upzfiles_filescontainer .upzfiles_filesize { float:right; color:#a9a9a9; font-size:0.8em; margin:2px 0; clear:both; }
+		
+		#upzfiles_filescontainer .upzfiles_folder_content, #upzfiles_filescontainer .upzfiles_folder_content li { float:left; width:100%; }
+		#upzfiles_filescontainer img { border:0 !important; }
+		
+		.upzfiles_single_file_panel { float:left; width:100%; }
+		
+	.upzfiles_nofiles { width:90%; margin:10% 0; background:#d24040; color:#fff; text-align:center; padding:5%; display:block; }	
+	.upzfiles_folder_singlefile { border-bottom:1px solid #c1c1c1; float:left; width:100%; }
+	
+	.upzfiles_single_file_line { display:inline; }
+		.upzfiles_single_file_line .upzfile_file_icon, .upzfiles_single_file_line .upzfile_file_name,.upzfiles_single_file_line .upzfiles_admin_singlefiles { float:left; }
+		.upzfiles_single_file_line .upzfiles_admin_singlefiles { margin:0 0 0 10px; }
+		
+.upzfiles_folderstree { list-style:none; float:left; margin:0; padding:0; }
+.upzfiles_singlefolder_name { padding:5px 0 5px 20px; display:block; background:url(../images/folder-puce.png); background-repeat:no-repeat; background-position:left center; }
+.upzfiles_singlefolder ul { padding:0 0 0 15px; border-left:1px solid #8f8f8f; }
+	.upzfiles_singlefolder ul li { margin:10px 0; padding:0 0 0 1%; }
+	.upzfiles_singlefolder.private,.upzfiles_singlefolder.private a, .upzfiles_singlefolder.private a:hover, .upzfiles_singlefolder.private a:visited, .upzfiles_private { color:#c62500; }
+	.upzfiles_singlefolder.public,.upzfiles_singlefolder.public a, .upzfiles_singlefolder.public a:hover, .upzfiles_singlefolder.public a:visited, .upzfiles_public { color:#42d461; }
+
+.group_edit_users { float:left; }
+
+/* EDITOR */
+#TB_window .editfile, #TB_window .deletefile, #TB_window .separatorfile { display:none; }
+#insert-upzfile-button .button-icon { width:18px; height:18px; }
+#insert-upzfile-button .wp-media-buttons-icon:before { content: "\f318"; font:400 18px/1 dashicons; color:#888; }
+

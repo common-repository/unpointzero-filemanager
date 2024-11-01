@@ -1,0 +1,29 @@
+/* This stylesheet is used to style the public view of the plugin. */
+	
+#upzfiles_fullpanel { width:94%; padding:3%; float:left; }
+	#upzfiles_foldercontainer { float:left; width:48%; padding:0 2% 0 0; border-right:1px solid #8f8f8f; }
+	#upzfiles_filescontainer { float:left; width:47%; padding-left:2%; }
+		#upzfiles_foldercontainer ul li { clear:both; float:left; margin:0 !important; }
+		#upzfiles_filescontainer ul { list-style:none; padding:0 0 10px; margin:0 !important; }
+		#upzfiles_filescontainer .upzfile_file_icon { float:left;margin:0 0 5px; }
+		#upzfiles_filescontainer .upzfile_file_name { float:left; margin:0 0 0 10px; }
+		#upzfiles_filescontainer .upzfiles_filesize { float:right; color:#a9a9a9; font-size:0.8em; margin:2px 0; clear:both; }
+		#upzfiles_filescontainer .upzfiles_admin_singlefiles { float:right; clear:both; margin:0 0 2px; }
+		
+		#upzfiles_filescontainer .upzfiles_folder_content, #upzfiles_filescontainer .upzfiles_folder_content li { float:left; width:100%; }
+		#upzfiles_filescontainer img { border:0 !important; }
+		
+		.upzfiles_single_file_panel { float:left; width:100%; padding:3px 0; }
+		
+	.upzfiles_nofiles { width:90%; margin:10% 0; background:#d24040; color:#fff; text-align:center; padding:5%; display:block; }	
+	.upzfiles_folder_singlefile { border-bottom:1px solid #c1c1c1; }
+	
+	.upzfiles_single_file_line { display:inline; }
+		.upzfiles_single_file_line .upzfile_file_icon, .upzfiles_single_file_line .upzfile_file_name,.upzfiles_single_file_line .upzfiles_admin_singlefiles,.upzfiles_single_file_line .upzfiles_filesize { display:inline; }
+		.upzfiles_single_file_line .upzfiles_admin_singlefiles, .upzfiles_single_file_line .upzfile_file_name, .upzfiles_single_file_line .upzfiles_filesize { margin:0 0 0 8px; }
+		.upzfiles_single_file_line .upzfile_file_icon { border:0 !important; }
+		
+.upzfiles_folderstree { list-style:none; float:left; margin:0; padding:0; }
+.upzfiles_singlefolder_name { padding:5px 0 5px 20px; display:block; background:url(../images/folder-puce.png); background-repeat:no-repeat; background-position:left center; }
+.upzfiles_singlefolder ul { padding:0 0 0 15px; border-left:1px solid #8f8f8f; }
+	.upzfiles_singlefolder ul li { margin:10px 0; padding:0 0 0 1%; }
